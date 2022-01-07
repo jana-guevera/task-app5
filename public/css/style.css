@@ -1,0 +1,54 @@
+.nav-container{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.main{
+    width: 60%;
+    margin: 20px auto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    border-bottom: 1px solid lightgray;
+}
+
+.task-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px;
+    box-shadow: 0 0 20px rgba(7, 7, 7, 0.300);
+}
+
+label.error{
+    color: red;
+    /* border: 1px solid red;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+    background-color: #fbe5e5; */
+}
+
+.bg-completed{
+    background-color: #D3E4CD;
+}
+
+.login-form, .signup-form{
+    max-width: 400px;
+    margin: auto;
+    margin-top: 100px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.418);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.profile-image{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    margin-left: 5px;
+}
